@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.version      = "1.0.1"
   s.summary      = "Easy, lightweight, object-based key-value observing and -binding."
   s.homepage     = "https://github.com/chriseidhof/THObserversAndBinders"
-  s.license      = 'MIT (example)'
+  s.license      = 'MIT'
   s.author       = { "James Montgomerie" => "jamie@montgomerie.net" }
-  s.source       = { :git => "git://github.com/th-in-gs/THObserversAndBinders.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/valeriomazzeo/THObserversAndBinders.git", :tag => s.version }
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
   s.source_files = 'THObserversAndBinders'
